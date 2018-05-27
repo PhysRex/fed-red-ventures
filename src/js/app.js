@@ -1,5 +1,9 @@
-const _ = require('lodash');
-const dealerJSON = require('../../dealers.json');
+
+try {
+  var dealerJSON = require('../../dealers.json');
+} catch (e) {
+  // log error here...
+}
 
 
 const data = {
